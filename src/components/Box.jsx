@@ -2,18 +2,17 @@ import React from 'react';
 
 const Box = ({ value, onClick, isLocked }) => {
   let bgClass = '';
-  let textClass = 'text-black'; 
+  let textClass = 'text-black';
 
   if (isLocked) {
     bgClass = 'bg-red-500';
     textClass = 'text-white';
-  } 
-  else if (value % 2 === 0) {
+  } else if (value % 2 === 0) {
     bgClass = 'bg-[#e0e0e0]';
     textClass = 'text-black';
-  } 
-  else {
-    bgClass = 'bg-[#572669]';
+  } else {
+    // Odd numbers: Navy Blue
+    bgClass = 'bg-[#1a237e]';
     textClass = 'text-white';
   }
 
