@@ -10,19 +10,19 @@ A recursive 3x3 grid application built with React and Tailwind CSS. The grid imp
 
 ### 1. Initial State
 *Starting state: All grid values are 0 (Even - Light Gray).*
-![Initial State](screenshots/initial.png)
+![Initial State](images/initial.png)
 
 ### 2. Divisible by 3 (Ripple Rule A)
 *Example: A box becomes divisible by 3 (Navy Blue/Purple), effectively decrementing its Right Neighbor.*
-![Divisible by 3](screenshots/divisibleby3.png)
+![Divisible by 3](images/divisibleby3.png)
 
 ### 3. Divisible by 5 (Ripple Rule B)
 *Example: A box becomes divisible by 5, incrementing its Bottom Neighbor by 2.*
-![Divisible by 5](screenshots/divisibleby5.png)
+![Divisible by 5](images/divisibleby5.png)
 
 ### 4. Locked State (Reaching 15)
 *Example: A box reaches 15 or higher, turns Red, and becomes locked.*
-![Locked State](screenshots/tileturns15.png)
+![Locked State](images/tileturns15.png)
 
 
 ## 🛠️ Stack
